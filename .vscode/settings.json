@@ -1,0 +1,49 @@
+{
+    "python.pythonPath": "/home/deniz/miniconda3/envs/axray_env/bin/python",
+    "python.formatting.provider": "black",
+    "editor.formatOnSave": true,
+    "files.autoSave": "onFocusChange",
+    "debug.terminal.clearBeforeReusing": true,
+    "editor.minimap.enabled": false,
+    "editor.fontFamily": "Jetbrains Mono, 'Courier New', monospace",
+    "editor.fontLigatures": true,
+    "editor.letterSpacing": 0.7,
+    "editor.fontSize": 16,
+    "editor.lineHeight": 25,
+    "python.linting.pylintEnabled": true,
+    "python.linting.enabled": false,
+    "workbench.iconTheme": "ayu",
+    "workbench.colorTheme": "Atom One Dark",
+    "editor.tokenColorCustomizations": {
+        "comments": {
+            "fontStyle": ""
+        },
+        // colors: "#bae67e" "#5ccfe6""#ffd580"
+        "textMateRules": [
+            {
+                "scope": "meta.function-call.generic",
+                "settings": {
+                    "foreground": "#4eba8c"
+                }
+            }, /*
+            {
+                "scope": "meta.function-call.generic.python",
+                "settings": {
+                    "foreground": "#d4b169"
+                },
+            },*/
+            {
+                "scope": "string.quoted",
+                "settings": {
+                    "foreground": "#c2bb82" //"#bae67e"
+                }
+            }, /*
+            {
+                "scope": "source.python",
+                "settings": {
+                    "foreground": "#f0ff18",
+                }
+            }*/
+        ]
+    }
+}
